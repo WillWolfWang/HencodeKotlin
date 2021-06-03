@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 26
+    }
+}
+
+dependencies {
+    implementation project(':base')
+}
